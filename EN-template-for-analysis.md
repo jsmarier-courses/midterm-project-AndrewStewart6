@@ -1,6 +1,6 @@
-**Date**<br>
-**Course Code & Course Name**<br>
-**Student's First Name & Last Name**<br>
+**November 4, 2024**<br>
+**MPAD2003A Introductory Data Storytelling**<br>
+**Andrew Stewart**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
 # Midterm Project: Exploratory Data Analysis (EDA)
