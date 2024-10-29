@@ -46,6 +46,14 @@ To include a screen capture, use the sample code below. Your images should be sa
 ```
 This also shows how to create an ordered list. Simply put `1.` before each item.
 
+Because we are dealing with such a large dataset, I downloaded the dataset as a pdf and then imported it into google sheets using file import. After importing the dataset, You should be left with a google sheet that looks like this: 
+![](dataset-screenshot-1.png)<br>
+
+If you wish to take a look at my google sheet, a link can be found [here](https://docs.google.com/spreadsheets/d/1YBwdG1jH9G5g3GpXgDVMFjAQqHQR6V4IGBSvAFVN5Mg/edit?usp=sharing). 
+
+At this point, the google sheet contains 11 columns and 28,539 rows. The data also appears to be quite messy as many columns have data that are cut off because of boxes that are too small and they remain largely un-arranged by any specific order outside of the named columns. More specifically, the dataset uses continuous variables in the H and I columns as these columns are used to track coordinates and according to section 4.2 of Statistics: Power from data! “A variable is said to be continuous if it can assume an infinite number of real values within a given interval” which is true of coordinates. The dataset also deals with numeric variables in columns E and F as these columns deal with dates which have “a quantifiable characteristic whose values are numbers” (4.2 of Statistics: Power from data!). A Third data type that can be found in the dataset is nominal variables in column B and K which “describes a name, label or category without natural order”(4.2 of Statistics: Power from data!). One thing that is surprising is that some of the service requests that came in, such as the one in row 2, do not appear to have any ward attached to them. One question that comes to mind when looking at this raw data is who exactly is responsible for the service requests which have no assigned ward to them? And further than this, how were these requests received without a ward to do so?
+
+
 ## 3. Understanding Data
 
 ### 3.1. VIMO Analysis
