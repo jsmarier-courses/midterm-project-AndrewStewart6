@@ -115,6 +115,8 @@ To create the chart I clicked insert, chart, and then set the values of chart ty
 
 Insert text here.
 
+As mentioned before, A potential story that could come out of this dataset is why so many requests made for water and environment are being handled without the allocation of wards. What would be needed beyond this dataset to tell this story would be more context as to how requests without wards are handled and why water and environment requests are mainly being handled as such. In order to acquire this information, I would interview counselors responsible for these wards such as Matthew Luloff or Cathy Curry who might know more about how requests are handled within and without the wards. One relevant source that could help provide more context into how the wards work in Ottawa is the CTV article This Ottawa ward has the most complaints about rats so far in 2024. In this article, it states how many complaints pertaining to rats were made in each ward such as “There were 83 complaints about rats in the ward [Rideau-Vanier] in 2023” which suggests that when complaints are made in Ottawa they are separated into different geographical wards to keep track of (1). Another source that could be used to provide context would be the Ottawa Ward Boundary Review by bayward bulletin which has a pdf map of the different ward boundaries(2). 
+
 ## 5. Conclusion
 
 Insert text here.
