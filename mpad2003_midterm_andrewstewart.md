@@ -75,16 +75,17 @@ When looking at the types of requests for each specific ward, I used a pivot tab
 
 Insert text here.
 
-I first added whitespace so that information was more easily visible on sheet by double clicking lines between each column. 
+I first added whitespace so that information was more easily visible on the sheet by double clicking lines between each column. 
 
 I then froze the first row on the google sheet so that it is always visible even when scrolling by selecting the row and then clicking view, freeze, 1 row. 
 
-After this, I used the split function to split the description of requests into English and French. I started by adding two empty columns to the right of the description column, the called the split function to split the first row of values into the new columns, then I dragged the box down so that the rest pf the description column could be split into the new columns. After this, I copied the new values and pasted as values only before deleting the original description column. 
+After this, I used the split function to split the description of requests into English and French. I started by adding two empty columns to the right of the description column, then called the split function to split the first row of values into the new columns, then I dragged the box down so that the rest of the description column could be split into the new columns. After this, I copied the new values and pasted as values only before deleting the original description column. 
 
 The split function I used was `=SPLIT(D1, “|”)`
 
 The spreadsheet should now look as it does below
 ![](dataset-screenshot-2.png)<br>
+
 
 
 ### 3.3. Exploratory Data Analysis (EDA)
@@ -99,6 +100,7 @@ To create the pivot table I clicked on insert, pivot table, and then filled in t
 
 To create the chart I clicked insert, chart, and then set the values of chart type to pie  chart, datarange to the entire dataset, label to type and aggregated the values, and value to service request ID.after doing so, the chart should look like this.
 ![](chart.png)<br>
+
 
 
 **This section should include a screen capture of your pivot table, like so:**
