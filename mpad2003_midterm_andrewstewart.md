@@ -68,9 +68,24 @@ Support your claims by citing relevant sources. Please follow [APA guidelines fo
 
 As Cairo (2016) argues, a data visualization should be truthful...
 
+When looking at the types of requests for each specific ward, I used a pivot table with type for row, ward for column, and status for values to conduct a Vimo analysis. When conducting the Vimo analysis for this pivot table, I found that about 94.5% of the data was valid, as in “not blank or missing” and falling “within a valid range” as it was defined in Data Accuracy and Validation: Methods to ensure the quality of data(Data Accuracy and Validation: Methods to ensure the quality of data, 1:20). There were two instances of invalid data where there was no type for the request made. There were 1549 instances of missing values where there was no ward assigned to the request, making up for approximately 5.4% of the data. There was also an outlier in the values with missing wards for Water and the environment as they had a value over 4 times larger than any other ward for this type of request. 
+
+
 ### 3.2. Cleaning Data
 
 Insert text here.
+
+I first added whitespace so that information was more easily visible on sheet by double clicking lines between each column. 
+
+I then froze the first row on the google sheet so that it is always visible even when scrolling by selecting the row and then clicking view, freeze, 1 row. 
+
+After this, I used the split function to split the description of requests into English and French. I started by adding two empty columns to the right of the description column, the called the split function to split the first row of values into the new columns, then I dragged the box down so that the rest pf the description column could be split into the new columns. After this, I copied the new values and pasted as values only before deleting the original description column. 
+
+The split function I used was `=SPLIT(D1, “|”)`
+
+The spreadsheet should now look as it does below
+![](dataset-screenshot-2.png)<br>
+
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
