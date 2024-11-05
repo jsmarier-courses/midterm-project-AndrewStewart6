@@ -91,6 +91,16 @@ The spreadsheet should now look as it does below
 
 Insert text here.
 
+I chose to use the types of requests and wards as the primary variables in the construction of my chart and pivot table because in the earlier step when I was getting the data I noticed that some service requests did not have a specific ward attached to them so I thought I should look into which requests were most being placed in this category. What I found through the pivot table was that a majority of water and the environment requests were not assigned to any specific ward with over four times the requests as compared to any of the other wards in this category. I also found that these requests without wards placed within the top three wards when it came to the number of overall requests received with over half of its value coming from the water and environment requests. I found through the chart that I made that these water and environment requests only made up 11.6% of the total requests coming in, as well as the values of the other requests. 
+From these discoveries, I have learned that over half of the requests without an attached ward – which is in itself one of the top three wards receiving requests – come from a type of request making up only 11.6% of the total requests. The fact that so many of these wardless requests are linked to one of the less prevalent request types stands out and could act to suggest a potential story such as why so many requests made for water and environment are being handled without wards. These stats would warrant further investigation as to the reason behind them and I would go about investigating this by contacting some of the councilors responsible for the wards responsible for these service requests and inquiring into what happens to the requests that are not assigned to any particular ward and why so many of these requests are made about water and the environment in particular. 
+
+To create the pivot table I clicked on insert, pivot table, and then filled in type for rows, ward for columns, and status for values. After doing so, the pivot table looks like this.
+![](dataset-screenshot-3.png)<br>
+
+To create the chart I clicked insert, chart, and then set the values of chart type to pie  chart, datarange to the entire dataset, label to type and aggregated the values, and value to service request ID.after doing so, the chart should look like this.
+![](chart.png)<br>
+
+
 **This section should include a screen capture of your pivot table, like so:**
 
 ![](pivot-table-screen-capture.png)<br>
