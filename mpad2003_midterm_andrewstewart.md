@@ -123,6 +123,8 @@ As mentioned before, A potential story that could come out of this dataset is wh
 
 Insert text here.
 
+One thing that I found most challenging while completing this assignment was dealing with the chart tool in google sheets. I struggled to remember how to bring down the amount of labels in my chart and it took a while to realize I could just use the aggregate box to do so. In terms of the most rewarding aspect, I found splitting the description column into two language separated columns with the split function to be the most satisfying because it made the dataset look much more clean than having one very long column. When considering gaps in my knowledge uncovered during the process of this midterm assignment, I am not as comfortable with the graphing tools at my disposal than I had originally believed and should touch up on my knowledge of markdown since I had to spend a lot of time trying to figure it out while working on this. One thing I could have done differently is to try and use different data cleaning tools. I decided to freeze a row, add white spaces, and split a column but there were other options available to me such as data cleaning tools like find and replace and duplicates. 
+
 ## 6. References
 
 Include a list of your references here. Please follow [APA guidelines for references](https://apastyle.apa.org/style-grammar-guidelines/references). Hanging paragraphs aren't required though.
